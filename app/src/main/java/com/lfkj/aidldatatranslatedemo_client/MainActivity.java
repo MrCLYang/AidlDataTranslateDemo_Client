@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent("com.lfkj.aidldatatranslatedemo.IRemoteService");
         intent.setPackage("com.lfkj.aidldatatranslatedemo");
         isConnSuccess = bindService(intent, conn, Context.BIND_AUTO_CREATE);
+        //TODO 进行复杂数据传递
+
     }
 
     public void search(View view){
