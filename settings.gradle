@@ -1,0 +1,2 @@
+rootProject.name = "AidlDataTranslateDemo_Client"
+include ':app'
