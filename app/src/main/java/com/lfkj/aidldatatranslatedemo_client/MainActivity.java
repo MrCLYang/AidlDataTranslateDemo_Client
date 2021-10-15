@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         isConnSuccess = bindService(intent, conn, Context.BIND_AUTO_CREATE);
         //TODO 进行复杂数据传递
         System.out.println("复杂数据传递");
+        //TODO 将复杂数据传递到web端
+        System.out.println("传递到复杂端");
 
     }
 
